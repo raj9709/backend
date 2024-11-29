@@ -323,7 +323,8 @@ app.get("/search-notes/", authenticateToken, async (req, res) => {
     })
   }
 })
+const url = "https://backend-mmol.onrender.com"
 
-app.listen(8000);
+app.listen(url);
 
 module.exports = app;
